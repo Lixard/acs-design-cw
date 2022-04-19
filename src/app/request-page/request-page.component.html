@@ -1,0 +1,74 @@
+<mat-card>
+  <mat-card-title>Заявка на кредит от Ивана Иванова</mat-card-title>
+  <mat-card-subtitle>Статус: Ожидает валидации</mat-card-subtitle>
+  <mat-card-content>
+    <p><b>Сумма кредита: 18000р.</b></p>
+    Файлы:
+    <div *ngFor="let file of files">
+      <mat-icon>text_snippet</mat-icon>
+      <a>{{file.name}}</a>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button color="primary">Подтвердить</button>
+    <button mat-button color="accent">Отказать</button>
+  </mat-card-actions>
+</mat-card>
+<br>
+<mat-card>
+  <mat-card-title>Заявка на кредит от Светланы Фенатовой</mat-card-title>
+  <mat-card-subtitle>Статус: Ожидает загрузки документов</mat-card-subtitle>
+  <mat-card-content>
+    <p><b>Сумма кредита: 18000р.</b></p>
+<!--    Файлы:-->
+<!--    <div *ngFor="let file of files">-->
+<!--      <mat-icon>text_snippet</mat-icon>-->
+<!--      <a>{{file.name}}</a>-->
+<!--    </div>-->
+  </mat-card-content>
+  <!--  <mat-card-actions>-->
+  <!--&lt;!&ndash;    <button mat-button color="primary">Подтвердить</button>&ndash;&gt;-->
+  <!--    <button mat-button color="accent">Отказать</button>-->
+  <!--  </mat-card-actions>-->
+</mat-card>
+<br>
+<mat-card>
+  <mat-card-title>Заявка на кредит от Геннадия Горина</mat-card-title>
+  <mat-card-subtitle>Статус: Активен, выплачивается</mat-card-subtitle>
+  <mat-card-content>
+    <p><b>Сумма кредита: 350000р.</b></p>
+    <p><b>Выплачено: 50000p.</b></p>
+    <p><b>Следующая дата выплаты: 30.05.2022</b></p>
+    <p><b>Дата завершения договора: 30.05.2023</b></p>
+    Файлы:
+    <div *ngFor="let file of files">
+      <mat-icon>text_snippet</mat-icon>
+      <a>{{file.name}}</a>
+    </div>
+  </mat-card-content>
+<!--    <mat-card-actions>-->
+<!--  &lt;!&ndash;    <button mat-button color="primary">Подтвердить</button>&ndash;&gt;-->
+<!--      <button mat-button color="accent">Отказать</button>-->
+<!--    </mat-card-actions>-->
+</mat-card>
+<br>
+
+<mat-card>
+  <mat-card-title>Заявка на кредит от Ильи Холостина</mat-card-title>
+  <mat-card-subtitle>Статус: Завершен</mat-card-subtitle>
+  <mat-card-content>
+    <p><b>Сумма кредита: 120000р.</b></p>
+    <p><b>Выплачено: 120000р.</b></p>
+    <p><b>Дата завершения договора: 28.03.2022</b></p>
+    Файлы:
+    <div *ngFor="let file of files">
+      <mat-icon>text_snippet</mat-icon>
+      <a>{{file.name}}</a>
+    </div>
+  </mat-card-content>
+  <!--    <mat-card-actions>-->
+  <!--  &lt;!&ndash;    <button mat-button color="primary">Подтвердить</button>&ndash;&gt;-->
+  <!--      <button mat-button color="accent">Отказать</button>-->
+  <!--    </mat-card-actions>-->
+</mat-card>
+<br>

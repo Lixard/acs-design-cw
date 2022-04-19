@@ -1,0 +1,38 @@
+<div class="login">
+  <form [formGroup]="form">
+    <mat-card>
+      <mat-card-content>
+        <div class="content">
+          <h2>Связаться с нами</h2>
+          <mat-form-field>
+            <mat-label>Имя</mat-label>
+            <input formControlName="name" matInput/>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Номер телефона</mat-label>
+            <input formControlName="phone" matInput/>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Желаемая сумма кредита</mat-label>
+            <input formControlName="money" matInput/>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Среднегодовой доход</mat-label>
+            <input formControlName="payroll" matInput/>
+          </mat-form-field>
+        </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <div class="buttons">
+          <button
+            class="login-button"
+            color="primary"
+            mat-flat-button
+          >
+            Подать заявку
+          </button>
+        </div>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+</div>
